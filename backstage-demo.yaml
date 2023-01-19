@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ZespriMCS"
+  description: this is the portal for Zespri MCS
+  annotations: 
+    backstage.io/techdocs-ref: dir:./ZespriMCS
+spec:
+  type: website
+  owner: channing.wang@qrious.co.nz
+  lifecycle: experimental
